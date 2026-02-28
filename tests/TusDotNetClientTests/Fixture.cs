@@ -47,7 +47,7 @@ namespace TusDotNetClientTests
                                             .FirstOrDefault()?
                                             .FullName ??
                                         throw new ArgumentException(
-                                            "tusd executable must be present in test project directory"));
+                                            "tusd executable must be present in test project directory (https://github.com/tus/tusd/releases)"));
         }
 
         public static IEnumerable<object[]> TestFiles { get; }
