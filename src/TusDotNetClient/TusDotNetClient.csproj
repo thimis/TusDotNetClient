@@ -1,15 +1,15 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
-    <RootNamespace>TusDotNetClient</RootNamespace>
-    <AssemblyName>TusDotNetClient</AssemblyName>
-    <PackageId>TusDotNetClient</PackageId>
+    <RootNamespace>TusDotNetClient2</RootNamespace>
+    <AssemblyName>TusDotNetClient2</AssemblyName>
+    <PackageId>TusDotNetClient2</PackageId>
     <Authors>gerdus | jonstodle | thimis</Authors>
     <Description>A client library for interacting with a Tus enabled server.</Description>
     <RepositoryUrl>https://github.com/thimis/TusDotNetClient</RepositoryUrl>
     <PackageProjectUrl>https://github.com/thimis/TusDotNetClient</PackageProjectUrl>
     <License>MIT</License>
     <LangVersion>latest</LangVersion>
-    <Version>1.2.0</Version>
+    <Version>2.0.0</Version>
   </PropertyGroup>
 </Project>
