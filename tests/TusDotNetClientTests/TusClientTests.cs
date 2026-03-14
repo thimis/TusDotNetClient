@@ -11,7 +11,7 @@ namespace TusDotNetClientTests
     public class TusClientTests : IClassFixture<Fixture>
     {
         private readonly string _dataDirectoryPath;
-        private const string TusEndpoint = @"http://localhost:1080/files/";
+        private const string TusEndpoint = @"http://localhost:8080/files/";
 
         public TusClientTests()
         {
